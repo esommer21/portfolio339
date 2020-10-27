@@ -1,3 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #D3D3D3;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
 h1{
   font-size: 50px;
   line-height: 1;
@@ -8,11 +19,22 @@ h1{
 h2{
   font-size: 32px;
   line-height: 1.5;
+  text-align: center;
 }
+
+
+h3{font-size: 32px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
 
 p{
   font-size: 20px;
   ling-height: 1.5;
+  text-align: center;
+  
 }
 
 nav li{
