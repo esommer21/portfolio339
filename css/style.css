@@ -68,9 +68,9 @@ p{
 }
 
 nav li{
-  display:inline;
+  display:flex;
   padding-right:20px;
-
+  
 }
 
 nav a{
