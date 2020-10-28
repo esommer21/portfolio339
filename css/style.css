@@ -37,7 +37,7 @@ p{
   
 }
 
-#homepage-pic{
+.homepage-pic{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -45,7 +45,7 @@ p{
 }
 
 
-#miltonpic{display: block;
+.miltonpic{display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
