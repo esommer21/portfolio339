@@ -70,7 +70,7 @@ p{
 nav li{
   display:flex;
   padding-right:20px;
-  
+  flex-direction: row;
 }
 
 nav a{
