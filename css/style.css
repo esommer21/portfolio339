@@ -68,9 +68,9 @@ p{
 }
 
 nav li{
-  display:flex;
+  display:inline;
   padding-right:20px;
-  flex-direction: row;
+ 
 }
 
 nav a{
@@ -82,11 +82,6 @@ nav a{
 
 nav a:hover {
     text-decoration: underline;
-}
-
-nav a:active{
-    text-decoration: underline; 
-    text-transform: uppercase;
 }
 
 
