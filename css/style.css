@@ -118,6 +118,26 @@ nav{
   text-align: left;
 }
 
+
+
+header{
+    grid-column: 1 / -1;
+    grid-row: 1 / auto;
+}
+
+
+.champ, .woodson, .brady, .century, .carrfinal, .richrod, .hoke, .harbaugh, .ohiost{
+    grid-column: 3 / span 1;
+}
+champteam-image, woodson-image, brady-image, century-image, carrfinal-image, richrod-image, hoke-image, harbaugh-image, ohiost-image{
+    grid-column: 1 / -1;
+    max-height: 650px;
+    overflow: hidden;
+}
+
+    
+
+
 footer{
   background-color: black;
   color: white;
