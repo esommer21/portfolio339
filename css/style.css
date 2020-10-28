@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-color: #D3D3D3;
+  background-color: #add8e6;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -35,6 +35,20 @@ p{
   ling-height: 1.5;
   text-align: center;
   
+}
+
+#homepage-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#miltonpic{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 nav li{
