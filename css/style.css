@@ -103,6 +103,15 @@ nav a:hover {
 }
 
 
+
+.container{
+    display: grid;
+    display-row-gap: 20px;
+    grid-template-columns:2fr 3fr 2fr;
+    grid-template-rows: 3px / span 3;
+}
+
+
 nav{
   background-color: #E3B982;
   padding: 25px 0; 
