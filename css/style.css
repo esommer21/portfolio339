@@ -109,8 +109,7 @@ nav a:hover {
     display-row-gap: 20px;
     grid-template-columns:3fr 3fr;
     grid-template-rows: auto auto;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 
