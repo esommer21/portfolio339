@@ -129,11 +129,14 @@ header{
 
 .champ, .woodson, .brady, .century, .carrfinal, .richrod, .hoke, .harbaugh, .ohiost{
     grid-column: 2 / span 1;
+    justify-content: center;
+    
 }
 .champteam-image, .woodson-image, .brady-image, .century-image, .carrfinal-image, .richrod-image, .hoke-image, .harbaugh-image, .ohiost-image{
     grid-column: 1 / span 1;
     max-height: 650px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .champ, .champteam-image{
