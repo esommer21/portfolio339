@@ -109,6 +109,7 @@ nav a:hover {
     display-row-gap: 20px;
     grid-template-columns:3fr 3fr;
     grid-template-rows: auto auto;
+    justify-content: center;
 }
 
 
@@ -134,9 +135,6 @@ header{
     max-height: 650px;
     overflow: hidden;
 }
-
-
-
 
 .champ, .champteam-image{
     grid-row: 2 / auto;
