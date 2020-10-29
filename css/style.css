@@ -107,7 +107,7 @@ nav a:hover {
 .container{
     display: grid;
     display-row-gap: 20px;
-    grid-template-columns:2fr 3fr 2fr;
+    grid-template-columns:4fr 4fr;
     grid-template-rows: 3px / span 3;
 }
 
