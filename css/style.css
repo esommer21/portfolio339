@@ -107,8 +107,8 @@ nav a:hover {
 .container{
     display: grid;
     display-row-gap: 20px;
-    grid-template-columns:3fr 2fr  3fr;
-    grid-template-rows: 3px / span 2;
+    grid-template-columns:3fr 3fr;
+    grid-template-rows: auto auto;
 }
 
 
@@ -127,7 +127,7 @@ header{
 
 
 .champ, .woodson, .brady, .century, .carrfinal, .richrod, .hoke, .harbaugh, .ohiost{
-    grid-column: 3 / span 1;
+    grid-column: 1 / span 1;
 }
 .champteam-image, .woodson-image, .brady-image, .century-image, .carrfinal-image, .richrod-image, .hoke-image, .harbaugh-image, .ohiost-image{
     grid-column: 1 / -1;
