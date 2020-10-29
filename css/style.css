@@ -129,13 +129,46 @@ header{
 .champ, .woodson, .brady, .century, .carrfinal, .richrod, .hoke, .harbaugh, .ohiost{
     grid-column: 3 / span 1;
 }
-champteam-image, woodson-image, brady-image, century-image, carrfinal-image, richrod-image, hoke-image, harbaugh-image, ohiost-image{
+.champteam-image, .woodson-image, .brady-image, .century-image, .carrfinal-image, .richrod-image, .hoke-image, .harbaugh-image, .ohiost-image{
     grid-column: 1 / -1;
     max-height: 650px;
     overflow: hidden;
 }
 
-    
+
+
+
+.champ, .champteam-image{
+    grid-row: 2 / auto;
+}
+.woodson, .woodson-image{
+    grid-row: 3 / auto;
+}
+
+.brady, .brady-image{
+    grid-row: 4 / auto;
+}
+
+.century, .century-image{
+    grid-row: 5 / auto;
+}
+
+.carrfinal, .carrfinal-image{
+    grid-row: 6 / auto;
+}
+
+.richrod, .richrod-image{
+    grid-row: 7 / auto;
+}
+.hoke, .hoke-image{
+    grid-row: 8 / auto;
+}
+.harbaugh, .harbaugh-image{
+    grid-row: 9 / auto;
+}
+.ohiost, .ohiost-image{
+    grid-row: 10 / auto;
+}
 
 
 footer{
