@@ -113,6 +113,19 @@ nav a:hover {
 }
 
 
+
+
+.container2{
+    display: grid;
+    display-row-gap: 25px;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+
+
+
 nav{
   background-color: #E3B982;
   padding: 25px 0; 
@@ -169,6 +182,25 @@ header{
 }
 .ohiost, .ohiost-image{
     grid-row: 10 / auto;
+}
+
+
+.bohire, .bohire-image{
+    grid-column: 1 / span 1;
+    justify-content: center;
+
+}   
+    
+.tenyear-image, .tenyear{
+    grid-column: 2 / span 1;
+    justify-content: center;
+}
+
+
+.bolegacy-image, .legacy{
+    grid-column: 3 / span 1;
+    justify-content: center;
+
 }
 
 
