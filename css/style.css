@@ -125,6 +125,19 @@ nav a:hover {
 
 
 
+.containerhome{
+    display: flex;
+    flex-direction: column;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
 
 nav{
   background-color: #E3B982;
